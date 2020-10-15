@@ -13,7 +13,7 @@ app.use(morgan('dev'))
 app.use(express.json({ extended: true }))
 app.use(getDate)
 
-app.get('/', (_, res) => res.send('Hello world'))
+app.get('/', (_, res) => res.send('Bienvenido al api b45-cinta-negra devf'))
 // namespace
 app.use('/api/v1', router)
 
