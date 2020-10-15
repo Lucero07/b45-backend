@@ -13,7 +13,7 @@ export default {
       }
       const token = jwt.sign(payload,
         process.env.JWT_SECRET,
-        { expiresIn: '1h' })
+        { expiresIn: '24h' })
       return token
     } catch (error) {
       return null
